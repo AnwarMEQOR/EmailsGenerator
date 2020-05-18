@@ -18,7 +18,8 @@ After installing Python and the necessary modules above, follow the instructions
 * Run the "EmailsGenerator.py" file.
 * Relax, you will be ready to go in seconds.
 * Wait for the data to be saved.
-* Congratulations. Your emails are ready to use. Use wisely.
+* Congratulations. Your emails are ready to use. Check the "emails.text" file. 
+* Use wisely.
 
 
 ## Contributing
