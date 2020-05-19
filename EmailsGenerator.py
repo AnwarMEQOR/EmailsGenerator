@@ -18,20 +18,22 @@ reader = csv.reader(sfile)
 suffixes = [row for row in reader]
 sfile.close()
 sleep(2)
+######### Getting domain name #########
+domain = input("Please enter the domain name")
 ######### Generating emails #########
 print("Generating emails, just relax...")
 emails = []
 for name in names:
     for suffix in suffixes:
-        email = name[0] + suffix[0] + "@hotmail.com"
+        email = name[0] + suffix[0] + "@" + domain
         emails.append(email)
-        email = name[0] + '.' + suffix[0] + "@hotmail.com"
+        email = name[0] + '.' + suffix[0] + "@" + domain
         emails.append(email)
-        email = name[0] + '-' + suffix[0] + "@hotmail.com"
+        email = name[0] + '-' + suffix[0] + "@" + domain
         emails.append(email)
-        email = name[0] + '_' + suffix[0] + "@hotmail.com"
+        email = name[0] + '_' + suffix[0] + "@" + domain
         emails.append(email)
-        email = "its" + name[0]+ suffix[0] + "@hotmail.com"
+        email = "its" + name[0]+ suffix[0] + "@" + domain
         emails.append(email)
 sleep(2)
 ######### Saving #########
